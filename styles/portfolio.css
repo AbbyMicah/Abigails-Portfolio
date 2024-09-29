@@ -48,3 +48,10 @@ line-height: 80px;
   padding: 100px 20px;
   margin:30px;
 }
+.work-content{
+  background:var(--heading-font-family);
+  text-align: center;
+  padding:160px 50px 20px;
+  font-size:64px;
+  line-height:80px
+}
