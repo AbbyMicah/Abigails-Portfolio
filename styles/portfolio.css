@@ -73,3 +73,30 @@ nav li.active a{
 p{
   font-size:bold;
 }
+.social-links a{
+  margin: 0 20px;
+  color:var(--branding-color);
+  background:var(--secondary-color);
+  padding:10px 14px;
+  border-radius:50%;
+  font-size:18px;
+  transition:all 150ms ease-in-out;
+}
+.social-links a:hover{
+color:white;
+background:var(--branding-color);
+}
+.email-link a{
+  text-decoration:none;
+  color:black;
+  font-size:24px;
+}
+.email-link a:hover{
+  color:var(--branding-color);
+}
+.contact-box{
+  background:var(--secondary-color);
+  padding:30px 120px;
+  margin-top:50px;
+  border-radius:10px;
+}
