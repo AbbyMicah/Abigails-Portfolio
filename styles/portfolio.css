@@ -17,6 +17,7 @@ body{
 .principal p{
   font-size: 36px;
   font-weight: bold;
+  display:block;
   margin:0;
   font-family:var(--default-font-family);
   color:#272142;
@@ -51,7 +52,12 @@ font-family:var(--default-font-family)
   line-height: 27px;
   padding: 15px 30px;
   text-align: center;
+  border: 1px solid var(--branding-color);
+  cursor: pointer;
   transition: all 100ms ease-in-out;
+}
+.btn-branding:hover{
+  color:#272142;
 }
 .btn-branding-outline {
   color: var(--branding-color);
