@@ -11,26 +11,29 @@ body{
 .principal{
   background:var(--secondary-color);
   text-align: center;
-  padding:80px 20px;
+  padding:80px;
   font-family: var(--heading-font-family);
+  margin-top: 15px;
 }
 .principal p{
   font-size: 36px;
   font-weight: bold;
   display:block;
   margin:0;
+  height: 10px;
   font-family:var(--default-font-family);
   color:#272142;
 }
 div{
   display:block;
 }
- h1{
+ .principal h1{
   font-size:96px;
   display: block;
   font-size: 64px;
   font-weight: 700;
   padding:60px 50px 20px;
+  font-family: var(--heading-font-family);
  }
  h1,h2,h3,h4,h5,h6 {
 color: black;
@@ -75,6 +78,11 @@ font-family:var(--default-font-family)
   line-height: 27px;
   padding: 15px 30px;
 }
+.about-section{
+  padding: 60px 20px;
+  margin:30px;
+  text-align: center;
+}
 .about-section h1{
  
   font-size: 96px;
@@ -103,6 +111,12 @@ font-family:var(--default-font-family)
   padding:60px 50px 20px;
   font-size:64px;
   line-height:80px
+}
+nav{
+  background:#eae9fa;
+  font-size:large;
+  margin-top: 10px;
+  padding:4px;
 }
 nav li{
   display:inline;
@@ -151,3 +165,18 @@ background:var(--branding-color);
   border-radius:10px;
 }
 
+.logo{
+ 
+  height: 30px;
+  color: rgb(9, 9, 100);
+  font-style:oblique;
+  font-weight: bold;
+  border-style: groove;
+  border-radius:100px;
+  margin-top: 10px;
+}
+.contact-box{
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
